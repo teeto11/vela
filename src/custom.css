@@ -1,0 +1,61 @@
+.sidebar{
+    width:20vw;
+    border:1px solid black; 
+}
+.invoice{
+    padding: 10px;
+    margin-left:30px;
+    
+    border-radius:5px;
+    text-transform: capitalize;
+}
+.sidebar p{
+    margin-left:30px;
+    margin-top: 30px;
+}
+.o_image{
+    margin-left:15px;
+}
+.overview {
+   
+    display: block;
+    padding: 5px;
+    background-color:#E8F1FD;
+}
+.o_overview {
+    margin-left: 10px;
+}
+.side-list>li>span{
+    margin-right: 10px;
+}
+.side-list{
+    padding-left:20px;
+}
+.payments ul li , .orders ul li{
+    list-style-type: none;
+    padding:10px;
+}
+.box{
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,.1);
+    padding: 10px;
+    height:78px;
+    font-size:12px;
+    display: flex;
+}
+.header-stat{
+    margin-bottom:30px;
+}
+.second-section{
+    margin-top: 30px;
+}
+.progress {
+    background: gold;
+    height: 5px;
+    border-radius: 12px;
+}
+.progress-bar{
+    background: green;
+}
+.payment-section>p{
+    font-size:21px;
+}
