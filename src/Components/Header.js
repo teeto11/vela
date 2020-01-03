@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <>
-        <nav className="navbar navbar-default">
+        <nav className="navbar navbar-default navbar-fixed">
         <div className="container-fluid">
         
           <div className="navbar-header">
@@ -13,20 +13,20 @@ function Header() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand logo" href="#" style={{color:'#257BEF',fontSize:'24px',}}>TransMonitor</a>
+            <a className="navbar-brand logo nav-ul" href="#" style={{color:'#257BEF',fontSize:'24px',}}>TransMonitor</a>
           </div>
       
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <form className="navbar-form navbar-left" role="search">
-               <div className="form-group" style={{display:'flex'}}>
-                 <div className="search"><img src="searchicon.png" alt="img" style={{width:'15px'}}/></div>
-                 <input type="text" className="form-control" placeholder="Search.."/>
+               <div className="form-group nav-ul" style={{display:'flex'}}>
+                 <div className="search"><img src="searchicon.png" alt="img" style={{width:'15px',marginTop:'12px'}}/></div>
+                 <input type="text" className="form-control search-box" placeholder="Search....."/>
               </div>
             </form>
-            <ul className="nav navbar-nav navbar-right">
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Faq</a></li>
-              <li><a href="#"><img src="notification.png" alt="img" style={{width:'20px'}}/></a></li>
+            <ul className="nav navbar-nav navbar-right" >
+              <li className="nav-ul"><a href="#">Support</a></li>
+              <li className="nav-ul"><a href="#">Faq</a></li>
+              <li className="nav-ul"><a href="#"><img src="notification.png" alt="img" style={{width:'20px'}}/></a></li>
               <li>
                   <a href="#">
                       <div className="text-right" style={{fontSize:'12px'}}>Hello</div>

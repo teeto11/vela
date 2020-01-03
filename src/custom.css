@@ -3,10 +3,10 @@
     
 }
 .invoice{
-    padding: 10px;
+    padding: 5px 15px;
     margin-left:30px;
     
-    border-radius:8px;
+    border-radius:15px;
     text-transform: capitalize;
 }
 .sidebar p{
@@ -60,5 +60,19 @@
     font-size:21px;
 }
 .logo{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial black', sans-serif;
+    
+}
+.search-box{
+    border: none;
+    box-shadow: none;
+
+}
+.search-box:focus{
+    box-shadow: none;
+    
+}
+.nav-ul{
+    position: relative;
+    top:8px;
 }
