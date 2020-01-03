@@ -1,5 +1,6 @@
 .sidebar{
     width:20vw;
+    position:fixed;
     
 }
 .invoice{
@@ -95,4 +96,13 @@ span.not-num {
 }
 table#example .btn{
     width: 98px;
+}
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 2;
+}
+.container-fluid.header-stat {
+    padding-top: 110px;
 }

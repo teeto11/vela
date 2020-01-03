@@ -114,7 +114,21 @@ function Home() {
                                             <td><button className="btn btn-success">Reconciled</button></td>           
                                         </tr>
                                         <tr>
-                                        <td>Apple Macbook</td>
+                                            <td>Apple Macbook</td>
+                                            <td>4000</td>
+                                            <td>123456789</td>
+                                            <td>12:30</td>
+                                            <td><button className="btn btn-warning">Pending</button></td>
+                                        </tr>      
+                                        <tr>
+                                            <td>Apple Macbook</td>
+                                            <td>4000</td>
+                                            <td>123456789</td>
+                                            <td>12:30</td>
+                                            <td><button className="btn btn-success">Pending</button></td>
+                                        </tr>      
+                                        <tr>
+                                            <td>Apple Macbook</td>
                                             <td>4000</td>
                                             <td>123456789</td>
                                             <td>12:30</td>
