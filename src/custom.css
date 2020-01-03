@@ -89,3 +89,10 @@ span.not-num {
     left: 26px;
     top: 12px;
 }
+.dataTables_wrapper .dataTables_filter input{
+    border-radius:20px;
+    border: 1px solid #ddd;
+}
+table#example .btn{
+    width: 98px;
+}
