@@ -26,7 +26,7 @@ function Header() {
             <ul className="nav navbar-nav navbar-right" >
               <li className="nav-ul"><a href="#">Support</a></li>
               <li className="nav-ul"><a href="#">Faq</a></li>
-              <li className="nav-ul"><a href="#"><img src="notification.png" alt="img" style={{width:'20px'}}/></a></li>
+              <li className="nav-ul"><a href="#"><img src="notification.png" alt="img" style={{width:'20px'}}/><span className="not-num">8</span></a></li>
               <li>
                   <a href="#">
                       <div className="text-right" style={{fontSize:'12px'}}>Hello</div>
