@@ -18,8 +18,9 @@ function Header() {
       
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <form className="navbar-form navbar-left" role="search">
-              <div className="form-group">
-                <input type="text" className="form-control" placeholder="Search.."/>
+               <div className="form-group" style={{display:'flex'}}>
+                 <div className="search"><img src="searchicon.png" alt="img" style={{width:'15px'}}/></div>
+                 <input type="text" className="form-control" placeholder="Search.."/>
               </div>
             </form>
             <ul className="nav navbar-nav navbar-right">
