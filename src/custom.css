@@ -1,6 +1,6 @@
 .sidebar{
     width:20vw;
-    border:1px solid black; 
+    
 }
 .invoice{
     padding: 10px;
@@ -58,4 +58,7 @@
 }
 .payment-section>p{
     font-size:21px;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
 }

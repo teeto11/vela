@@ -14,10 +14,10 @@ function Sidebar() {
             <div className="payments">
                 <p>Payment</p>
                 <ul className="side-list">
-                    <li><span><img src="wallet1.png" style={{width:'20px'}} alt="img"/></span>
+                    <li><span><img src="wallet2.png" style={{width:'20px'}} alt="img"/></span>
                     All payments</li>
-                    <li><span><img src="wallet1.png" style={{width:'20px'}} alt="img"/></span>Reconcilled payments</li>
-                    <li><span><img src="wallet1.png" style={{width:'20px'}} alt="img"/></span>UnReconciled payments</li>
+                    <li><span><img src="wallet2.png" style={{width:'20px'}} alt="img"/></span>Reconcilled payments</li>
+                    <li><span><img src="wallet2.png" style={{width:'20px'}} alt="img"/></span>UnReconciled payments</li>
                     <li><span><img src="circle.png" style={{width:'20px'}} alt="img"/></span>Manual payments</li>
                 </ul>
             </div>
@@ -28,7 +28,7 @@ function Sidebar() {
                     All Orders</li>
                     <li><span><img src="note.png" style={{width:'20px'}} alt="img"/></span>Pending orders</li>
                     <li><span><img src="note.png" style={{width:'20px'}} alt="img"/></span>Reconciled orders</li>
-                    <li><span><img src="note.png" style={{width:'20px'}} alt="img"/></span>Merchant profile</li>
+                    <li><span><img src="user.png" style={{width:'20px'}} alt="img"/></span>Merchant profile</li>
                 </ul>
             </div>
         </div>

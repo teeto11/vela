@@ -3,26 +3,26 @@ import React from 'react'
 function Header() {
     return (
         <>
-        <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <nav className="navbar navbar-default">
+        <div className="container-fluid">
         
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+          <div className="navbar-header">
+            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" style={{color:'#257BEF'}}>TransMonitor</a>
+            <a className="navbar-brand logo" href="#" style={{color:'#257BEF',fontSize:'24px',}}>TransMonitor</a>
           </div>
       
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-left" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.."/>
+          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form className="navbar-form navbar-left" role="search">
+              <div className="form-group">
+                <input type="text" className="form-control" placeholder="Search.."/>
               </div>
             </form>
-            <ul class="nav navbar-nav navbar-right">
+            <ul className="nav navbar-nav navbar-right">
               <li><a href="#">Support</a></li>
               <li><a href="#">Faq</a></li>
               <li><a href="#"><img src="notification.png" alt="img" style={{width:'20px'}}/></a></li>
